@@ -72,7 +72,8 @@ public class PermissionHelper {
         } else {
             manager = info.fragment.getChildFragmentManager();
         }
-        PermissionFragment fragment = (PermissionFragment) manager.findFragmentByTag(PermissionFragment.class.getName());
+        PermissionFragment fragment = (PermissionFragment)
+                manager.findFragmentByTag(PermissionFragment.class.getName());
         FragmentTransaction transaction = manager.beginTransaction();
         if (fragment != null) {
             transaction.remove(fragment);
