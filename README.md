@@ -2,7 +2,7 @@
 基于EasyPermission封装的使用简易的权限请求库
 
 用法：
-```
+```java
 
         PermissionHelper.with(this)
                 //要申请的权限或权限组
